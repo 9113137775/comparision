@@ -1,19 +1,34 @@
- #name {
+.ask {
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
 @keyframes example{
-    from{box-shadow: 1px 1px 38px red;}
-    to{box-shadow: 1px 1px 38px yellow;}
+    from{box-shadow: 5px 5px 38px orangered;}
+    to{box-shadow: 5px 5px 38px greenyellow ;}
 }
 .copy_right_footer {
     position: fixed;
-    color: black;
+    
     bottom: 0;
     width: 100%;
-    background-color:white;
+    
     line-height: 3;
     text-align: center;
+  }
+  .ask, .copy_right_footer {
+    margin-top: 25px;
+    background-color:#CD9C8A;
+    color: white;
+  }
+  body {
+    background-color: orange;
+  }
+  .btn {
+background: #CD9C8A;
+  }
+
+  .ask {
+    color: #CD9C8A;
   }
